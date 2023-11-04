@@ -1,4 +1,4 @@
-public class BinaryTree {
+public class BinarySearchTree {
     private TreeNode root;
 
     public class TreeNode {
@@ -83,7 +83,7 @@ public class BinaryTree {
     }
 
     public static void main(String[] args) {
-        BinaryTree tree = new BinaryTree();
+        BinarySearchTree tree = new BinarySearchTree();
         tree.root = tree.insert(10, null);
         tree.insert(2, tree.root);
         tree.insert(15, tree.root);
