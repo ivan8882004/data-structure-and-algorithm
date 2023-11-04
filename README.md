@@ -1,2 +1,2 @@
 # data-structure-and-algorithm
-dsa
+for self learning
